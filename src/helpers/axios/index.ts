@@ -1,7 +1,7 @@
 import { login, logout } from "@/actions/auth.action";
 import axios from "axios";
 
-const API_BASE_URL = "https://elite-agency-backend-1.onrender.com/api";
+const API_BASE_URL = "https://elite-agency-backend.onrender.com/api";
 
 const axiosInstance = axios.create({
   baseURL: API_BASE_URL,
